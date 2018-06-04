@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Galaxy Jump</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+  </head>
+  <body class="template">
+    <div class="buttons">
+      <a class="back" href="/">Volver al Menu</a>
+    </div>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <br>
+      <div class="logo"><img src="TemplateData/logo.png" height="38" width="204" alt="Disponible en Google Play" ></div>
+      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">Galaxy Jump | Al hacer click la bola se impulsará en dirección de su flecha interna</div>
+      <aside class="">Encuentralo en Google Play buscando " Lauro Cacciagioni "</aside>
+    </div>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    backgroundColor: "#FFFFFF",
+    splashStyle: "Light",
+    dataUrl: "Release/galaxy jump v2.data",
+    codeUrl: "Release/galaxy jump v2.js",
+    asmUrl: "Release/galaxy jump v2.asm.js",
+    memUrl: "Release/galaxy jump v2.mem",backgroundImage: "background.jpg",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+
+  </body>
+</html>

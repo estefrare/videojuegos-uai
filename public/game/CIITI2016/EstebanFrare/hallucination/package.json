@@ -1,0 +1,14 @@
+{
+  "name": "hallucination",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Esteban Frare",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

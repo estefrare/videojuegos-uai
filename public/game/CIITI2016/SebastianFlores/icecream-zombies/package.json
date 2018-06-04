@@ -1,0 +1,14 @@
+{
+  "name": "empty-project",
+  "version": "0.0.1",
+  "description": "Please change this description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

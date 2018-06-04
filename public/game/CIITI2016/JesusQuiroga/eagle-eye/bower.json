@@ -1,0 +1,21 @@
+{
+  "name": "blank-project",
+  "description": "Please change this description",
+  "main": "index.js",
+  "authors": [
+    "Your Name"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "^2.6.2"
+  }
+}

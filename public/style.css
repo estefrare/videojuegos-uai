@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background: #F4F4F4;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #662938;
+}
+
+.c2017, .c2016 {
+  padding: 4vh 10vw 10vh 10vw;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #5E2D38;
+}
+
+.gallery {
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 115px;
+  margin: .5vw;
+  text-decoration: none;
+  background: #FFFFFF;
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.titleContainer {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #FFFFFF;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0;
+}
+
+.poster {
+  width: 100%;
+  border-radius: 0 0 3px 3px !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.game:hover {
+  opacity: 0.5;
+}
+
+.buttons {
+  position: relative;
+  z-index: 99;
+  height: 50px;
+  background-color: #662938;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  padding: 5px 10px;
+  background: #FFF;
+  display: flex;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  color: #662938;
+  text-decoration: none;
+}
