@@ -17,9 +17,15 @@
     <link rel="icon" type="image/png" href="/logo.png" />
   </head>
   <body>
-    <div class="buttons">
-      <a class="back" href="/">Volver al Menu</a>
-    </div>
+		<div class="buttons">
+			<button class="back" onclick="back()">Volver al Menu</button>
+		</div>
+		<div class="game-canvas"></div>
+		<script>
+			function back () {
+				window.history.back();
+			}
+		</script>
 		<script type="text/javascript" src="/js/phaser.js"></script>
 		<script type="text/javascript" src="js/states/Boot.js"></script>
 		<script type="text/javascript" src="js/states/Preload.js"></script>

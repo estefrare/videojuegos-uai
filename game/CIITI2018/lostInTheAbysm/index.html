@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body >
+    <div class="buttons">
+        <button class="back" onclick="back()">Volver al Menu</button>
+    </div>
+    <div class="container">
+
+        <video controls>
+             <source src="/game/CIITI2018/lostInTheAbysm/lostInTheAbysm.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
+<style>
+     body {
+        padding: 0px;
+        margin: 0px;
+        background-color: #662938;
+      }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .back {
+        padding: 5px 10px;
+        background: #FFF;
+        display: flex;
+        border-radius: 14px;
+        justify-content: center;
+        align-items: center;
+        color: #662938;
+        text-decoration: none;
+    }
+    .buttons {
+        position: relative;
+        z-index: 99;
+        height: 50px;
+        background-color: #662938;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<script>
+    function back () {
+        window.history.back();
+    }
+</script>

@@ -13,8 +13,8 @@ body {
   background-color: #662938;
 }
 
-.c2017, .c2016 {
-  padding: 4vh 10vw 10vh 10vw;
+.c2017, .c2016, .c2018 {
+  padding: 1vh 4vw;
 }
 
 h1 {
@@ -33,6 +33,7 @@ h2 {
   -ms-flex-direction: column;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
+  justify-content: center;
   display: -webkit-box;
   display: flex;
 }

@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="buttons">
-          <a class="back" href="/">Volver al Menu</a>
+            <button class="back" onclick="back()">Volver al Menu</button>
         </div>
         <canvas id="canvas" width="1200" height="810" style="background:#999">
             Canvas not supported by your browser.
@@ -18,3 +18,8 @@
         <script type="application/javascript" src="game.js"></script>
     </body>
 </html>
+<script>
+    function back () {
+        window.history.back();
+    }
+</script>

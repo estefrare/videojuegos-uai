@@ -18,8 +18,13 @@
   </head>
   <body>
     <div class="buttons">
-      <a class="back" href="/">Volver al Menu</a>
+      <button class="back" onclick="back()">Volver al Menu</button>
     </div>
     <canvas id="game" width="840" height="460"></canvas>
   </body>
 </html>
+<script>
+  function back () {
+    window.history.back();
+  }
+</script>

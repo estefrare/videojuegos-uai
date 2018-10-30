@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="buttons">
-      <a class="back" href="/">Volver al Menu</a>
+      <button class="back" onclick="back()">Volver al Menu</button>
     </div>
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
@@ -28,3 +28,8 @@
     </div>
   </body>
 </html>
+<script>
+  function back () {
+    window.history.back();
+  }
+</script>

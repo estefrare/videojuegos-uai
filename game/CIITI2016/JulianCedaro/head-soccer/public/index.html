@@ -16,9 +16,9 @@
     <link rel="icon" type="image/png" href="/logo.png" />
   </head>
   <body>
-    <div class="buttons">
-      <a class="back" href="/">Volver al Menu</a>
-    </div>
+		<div class="buttons">
+			<button class="back" onclick="back()">Volver al Menu</button>
+		</div>
 		<!-- include the main game file -->
 		<script src="js/states/GameState.js"></script>
 		<script src="js/prefabs/PlayerBullet.js"></script>
@@ -27,3 +27,8 @@
 		<script src="js/main.js"></script>
 	</body>
 </html>
+<script>
+	function back () {
+		window.history.back();
+	}
+</script>

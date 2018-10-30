@@ -24,8 +24,13 @@
   </head>
   <body>
     <div class="buttons">
-      <a class="back" href="/">Volver al Menu</a>
+      <button class="back" onclick="back()">Volver al Menu</button>
     </div>
-		<!-- include the main game file -->
-	</body>
+    <div class="game-canvas"></div>
+  </body>
 </html>
+<script>
+  function back () {
+    window.history.back();
+  }
+</script>

@@ -12,10 +12,15 @@
 
     <body>
         <div class="buttons">
-          <a class="back" href="/">Volver al Menu</a>
+          <button class="back" onclick="back()">Volver al Menu</button>
         </div>
         <h1>ESTE JUEGO SE ENCUENTRA EN EL STAND DE</h1>
         <img src="/img/centinet.jpg" />
 
     </body>
 </html>
+<script>
+    function back () {
+         window.history.back();
+    }
+</script>

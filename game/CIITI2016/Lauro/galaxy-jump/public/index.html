@@ -11,7 +11,7 @@
   </head>
   <body class="template">
     <div class="buttons">
-      <a class="back" href="/">Volver al Menu</a>
+      <button class="back" onclick="back()">Volver al Menu</button>
     </div>
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
@@ -38,3 +38,8 @@
 
   </body>
 </html>
+<script>
+  function back () {
+    window.history.back();
+  }
+</script>

@@ -11,7 +11,7 @@
   </head>
   <body class="template">
     <div class="buttons">
-      <a class="back" href="/">Volver al Menu</a>
+      <button class="back" onclick="back()">Volver al Menu</button>
     </div>
     <p class="header"><span>Unity WebGL Player | </span>Black and White</p>
     <div class="template-wrap clear">
@@ -37,3 +37,8 @@
 
   </body>
 </html>
+<script>
+  function back () {
+    window.history.back();
+  }
+</script>

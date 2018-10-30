@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="buttons">
-      <a class="back" href="/videojuegos-uai">Volver al Menu</a>
+      <button class="back" onclick="back()">Volver al Menu</button>
     </div>
     <div class="game-canvas"></div>
     <script src="js/states/GameState.js"></script>
@@ -27,3 +27,9 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+
+<script>
+  function back () {
+    window.history.back();
+  }
+</script>
