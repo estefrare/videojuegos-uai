@@ -33,8 +33,8 @@ var game = {
     this.imageLost.src = 'img/Game_Over.png';
     this.imagePause.src = 'img/Pause.jpg';
     var i, j, id, cardsWidth, cardsHeight
-    cardsHeight = 210 // (game.height / 5)
-    cardsWidth = 210 // (game.width / 4)
+    cardsHeight = 150 // (game.height / 5)
+    cardsWidth = 150 // (game.width / 4)
 
     let groups = {
       0: { 0: '', 1: '', 2: '', 3: '', 4: ''},
@@ -106,7 +106,6 @@ var game = {
     clearInterval(this.timeIntervalId)
   },
   over: function() {
-    console.log(this.timeIntervalId)
     clearInterval(this.timeIntervalId)
     this.state = gameStatesEnum.over;
   },
