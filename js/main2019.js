@@ -12,6 +12,12 @@ $(document).ready(function () {
       title: 'Super Ball',
       color: '#5C3B6C'
     },
+    {
+      name: 'game/CIITI2019/Street',
+      // image: 'img/2019/SuperBall.jpg',
+      title: 'Street',
+      color: '#7F9037'
+    },
   ];
   var games2019Shufled = _.shuffle(games2019);
   var html = '';
