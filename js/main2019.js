@@ -6,6 +6,12 @@ $(document).ready(function () {
       title: 'Hunting the Damned',
       color: '#861F6E'
     },
+    {
+      name: 'game/CIITI2019/SuperBall/public',
+      image: 'img/2019/SuperBall.jpg',
+      title: 'Super Ball',
+      color: '#5C3B6C'
+    },
   ];
   var games2019Shufled = _.shuffle(games2019);
   var html = '';
