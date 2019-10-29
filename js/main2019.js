@@ -2,7 +2,7 @@ $(document).ready(function () {
   var games2019 = [
     {
       name: 'game/CIITI2019/HuntingTheDamned',
-      image: 'img/2019/phanton-chains.png',
+      image: 'img/2019/HuntingTheDamned.jpg',
       title: 'Hunting the Damned',
       color: '#861F6E'
     },
