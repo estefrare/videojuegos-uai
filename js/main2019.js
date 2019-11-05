@@ -18,6 +18,13 @@ $(document).ready(function () {
       title: 'Street',
       color: '#7F9037'
     },
+    {
+      name: 'game/CIITI2019/HellOnHearth',
+      image: 'img/2019/HellOnHearth.png',
+      title: 'Hell On Hearth',
+      color: '#828CB8'
+    },
+
   ];
   var games2019Shufled = _.shuffle(games2019);
   var html = '';
