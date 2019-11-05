@@ -24,7 +24,12 @@ $(document).ready(function () {
       title: 'Hell On Hearth',
       color: '#828CB8'
     },
-
+    {
+      name: 'game/CIITI2019/Universe',
+      image: 'img/2019/Universe.png',
+      title: 'Universe',
+      color: '#233D8A'
+    },
   ];
   var games2019Shufled = _.shuffle(games2019);
   var html = '';
