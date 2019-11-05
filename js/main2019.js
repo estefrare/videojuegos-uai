@@ -12,12 +12,12 @@ $(document).ready(function () {
       title: 'Super Ball',
       color: '#5C3B6C'
     },
-    {
-      name: 'game/CIITI2019/Street',
-      image: 'img/2019/Street.png',
-      title: 'Street',
-      color: '#7F9037'
-    },
+    // {
+    //   name: 'game/CIITI2019/Street',
+    //   image: 'img/2019/Street.png',
+    //   title: 'Street',
+    //   color: '#7F9037'
+    // },
     {
       name: 'game/CIITI2019/HellOnHearth',
       image: 'img/2019/HellOnHearth.png',
@@ -29,6 +29,12 @@ $(document).ready(function () {
       image: 'img/2019/Universe.png',
       title: 'Universe',
       color: '#233D8A'
+    },
+    {
+      name: 'game/CIITI2019/WinterOdesy',
+      image: 'img/2019/WinterOdesy.png',
+      title: 'Winter Odesy',
+      color: '#0A2631'
     },
   ];
   var games2019Shufled = _.shuffle(games2019);

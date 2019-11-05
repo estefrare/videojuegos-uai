@@ -880,7 +880,7 @@ self.C3_JsPropNameTable = [
 	}
 
 	self.C3_ExpressionFuncs = [
-		() => 0,
+		() => -5,
 		() => "",
 		p => {
 			const n0 = p._GetNode(0);
@@ -889,6 +889,7 @@ self.C3_JsPropNameTable = [
 		},
 		() => 2,
 		() => "Animation 1",
+		() => 0,
 		() => -1,
 		() => "quieto",
 		() => "abajo",
