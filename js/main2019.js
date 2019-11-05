@@ -14,7 +14,7 @@ $(document).ready(function () {
     },
     {
       name: 'game/CIITI2019/Street',
-      // image: 'img/2019/SuperBall.jpg',
+      image: 'img/2019/Street.png',
       title: 'Street',
       color: '#7F9037'
     },
