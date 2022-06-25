@@ -1,0 +1,21 @@
+.container{
+    width: 50%;
+    height: 40%;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*     visibility: hidden;
+ */    position: fixed;
+    margin: auto 40%;
+}
+
+.btn-restart{
+    outline: none;
+    background-color: firebrick;
+    border: none;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2rem;
+}

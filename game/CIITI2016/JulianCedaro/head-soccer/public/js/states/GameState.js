@@ -30,8 +30,8 @@ SpaceHipster.GameState = {
      this.load.image('player', 'assets/images/messi.png');
      this.load.image('player2','assets/images/cristiano.png');
      this.load.image('ground', 'assets/images/ground.png');
-     this.load.image('arco','assets/images/arco.PNG');
-     this.load.image('arco2','assets/images/arco2.PNG');
+     this.load.image('arco','assets/images/arco.png');
+     this.load.image('arco2','assets/images/arco2.png');
      this.load.image('ball','assets/images/ball.png');
      this.load.image('travesano','assets/images/travesano.png');
      this.load.image('travesano2','assets/images/travesano2.png');

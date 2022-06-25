@@ -6,6 +6,36 @@ $(document).ready(function () {
       title: 'Hunting the Damned',
       color: '#861F6E'
     },
+    {
+      name: 'game/CIITI2019/SuperBall/public',
+      image: 'img/2019/SuperBall.jpg',
+      title: 'Super Ball',
+      color: '#5C3B6C'
+    },
+    {
+      name: 'game/CIITI2019/TowerOfPower',
+      image: 'img/2019/TowerOfPower.png',
+      title: 'Tower Of Power',
+      color: '#7F9037'
+    },
+    {
+      name: 'game/CIITI2019/HellOnHearth',
+      image: 'img/2019/HellOnHearth.png',
+      title: 'Hell On Hearth',
+      color: '#828CB8'
+    },
+    {
+      name: 'game/CIITI2019/Universe',
+      image: 'img/2019/Universe.png',
+      title: 'Universe',
+      color: '#233D8A'
+    },
+    {
+      name: 'game/CIITI2019/WinterOdesy',
+      image: 'img/2019/WinterOdesy.png',
+      title: 'Winter Odesy',
+      color: '#0A2631'
+    },
   ];
   var games2019Shufled = _.shuffle(games2019);
   var html = '';
